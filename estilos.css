@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+.contenedor-logo{  
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+
+
+body {
+    background-image: url('fondo.jpg');
+    
+    background-size: cover; 
+    background-position: center; 
+}
+
+.contenedor{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    display:flex;   
+    height: 560px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(199, 210, 226);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+.body-perfil{
+    display: inline-block; 
+    width: 40%; 
+}
+
+.body-info{
+    display: inline-block; 
+    width:60%; 
+    
+    
+}
+
+section {
+    padding: 10px;
+    border-bottom: 1px solid #333333;
+    
+}
+
+.foto{
+    background-color:rgb(199, 210, 226);
+    height: 200px;
+    display: flex;
+
+    justify-content: center;
+	align-items: center;
+    
+    
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 5px 20px 15px 5px rgba(0,0,0,0.2);
+		transform: translatey(-6px);
+	}
+	100% {
+		box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+.imagen{
+
+    display: flex;
+    height: 180px;
+    width: 150px;
+    box-sizing: border-box;
+	
+	border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.771);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+
+
+.cara{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    
+    
+    
+}
+
+h3 {
+    background-color: rgb(206, 140, 26);
+    color: white;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px
+}
+
+p {
+    margin: 0;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.sobre-texto{
+
+    font-size: 11px;
+}
+.nombre{
+    color:  rgb(206, 140, 26);
+    
+
+}
+
+
+
+
+nav{
+    background-color: rgb(206, 140, 26);
+    padding: 0px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.nav-div{
+    display: inline-block; 
+    
+
+    
+}
+
+.nav-titulo{
+    
+    width:100%;
+
+}
+
+
+footer{
+    background-color: #333333;
+    height: 31px;
+}
+
+.pie_pagina{
+color: white;
+}
+
+.pie_pagina > p{
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+h3:hover{
+    background-color: rgb(206, 120, 26);
+}
+
+
+.titulo{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
